@@ -104,10 +104,10 @@ const AllData = () => {
                 {Array.isArray(data) &&
                     data.map((e) => (
                         // <Card key={item._id} data={item} handleDelete={handleDelete} />
-                        <div key={e._id} className="w-full sm:w-1/2 lg:w-1/4 p-2">
-                            <div className="bg-white shadow-md rounded-lg p-4">
+                        <div key={e._id} className="w-full sm:w-1/2 lg:w-1/4 p-2 ">
+                            <div className="bg-white shadow-md rounded-lg p-4 bg-black text-white">
                                 <div className="mb-4">
-                                    <h5 className="text-lg font-semibold text-gray-800">{e.Todoname}</h5>
+                                    <h5 className="text-lg font-semibold text-white">{e.Todoname}</h5>
                                     <h6 className="text-sm text-gray-500">{e.Description}</h6>
                                     <p className="text-gray-700">{e.Completed}</p>
                                 </div>

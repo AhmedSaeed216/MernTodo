@@ -6,7 +6,7 @@ const Card = ({ data, handleDelete }) => {
     <div className="w-full sm:w-1/2 md:w-1/4 p-2">
       <div className="bg-white shadow-md rounded-lg p-4">
         <h5 className="text-lg font-semibold text-gray-800">{data.name}</h5>
-        <h6 className="text-sm text-gray-500">{data.email}</h6>
+        <h6 className="text-sm text-blue-200">{data.email}</h6>
         <p className="text-gray-700">{data.age}</p>
         <div className="mt-4 flex justify-between">
           <button
